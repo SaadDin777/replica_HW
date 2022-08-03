@@ -1,0 +1,143 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 5%;
+    height: 5%;
+}
+
+#all {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 2%;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#center {
+    margin-top: 1%;
+}
+
+#email {
+    border-style: groove;
+    border-width: thin;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+    text-indent: 2%;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#password {
+    border-style: groove;
+    border-width: thin;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+    text-indent: 2%;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* .forgot{
+    margin-top: 1%;
+    text-indent: 15%;
+} */
+
+.forgot p {
+    display: inline;
+    /* word-spacing: 100px; */
+    /* text-indent: 15%; */
+}
+
+.line_1 {
+    text-indent: 70%;
+    float: left;
+}
+
+.line_2 {
+    text-indent: -50%;
+    color: blue;
+    float: right;
+}
+
+.continue {
+    border-style: groove;
+    margin-top: 4%;
+    background-color: orange;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.help_1 {
+    color: blue;
+    text-indent: 10%;
+}
+
+#new {
+    color: lightgray;
+    font-size: 15px;
+    text-align: center;
+}
+
+#center {
+    text-indent: 10%;
+}
+
+.sign {
+    font-size: 120%;
+}
+
+.mobile {
+    margin-top: 1%;
+}
+
+#create {
+    border-style: ridge;
+    border-width: thin;
+    background-color: lightgray;
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+}
+
+.condition {
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* width: 500px;
+    height: 40px; */
+    /* word-spacing: 10px; */
+}
+
+.condition p{
+    /* justify-content: center; */
+    /* text-indent: 20%; */
+    flex: 0.1;
+    /* flex:content; */
+    color: blue;
+}
+
+#inc {
+    text-align: center;
+}
+
+/* .use {
+    grid-area: left;
+}
+
+.privacy {
+    grid-area: center;
+}
+
+.help {
+    grid-area: right;
+} */
+
+
